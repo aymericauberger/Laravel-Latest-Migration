@@ -15,7 +15,7 @@ Easy!
 2. Hit enter, and lo and behold; your latest migration!
 
 ## Credits
-Forked from [Rails Latest Migration](https://github.com/alexpls/Rails-Latest-Migration)
+Forked from [Rails Latest Migration](https://github.com/alexpls/Rails-Latest-Migration).
 
 ## License
 The MIT License (MIT) - for more info see [LICENSE.md](https://github.com/aymericauberger/Laravel-Latest-Migration/blob/master/LICENSE.md).
