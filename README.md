@@ -1,26 +1,21 @@
-# Rails Latest Migration
+# Laravel Latest Migration
 
-Opens the latest migration created in a Ruby on Rails app. Works with Sublime Text 3 and Sublime Text 2.
+Opens the latest migration created in a Laravel app. Works with Sublime Text 3 and Sublime Text 2.
 
 ## Usage
 
 Easy!
 
-1. Open any file in your Rails app.
+1. Open any file in your Laravel app.
 1. Bring up your command pallette (`Cmd + Shift + P` / `Ctrl + Shift + P`) and type in:
   ```
   latest
   ```
-1. In no time the "Rails Latest Migration: Open latest Rails migration" should be highlighted, like so:
-![Rails Latest Migration Screenshot](https://github.com/alexpls/Rails-Latest-Migration/raw/gh-pages/screenshots/screenshot_1.png)
-1. Hit enter, and lo and behold; your latest migration!
+1. In no time the "Laravel Latest Migration: Open latest Laravel migration" should be highlighted.
+2. Hit enter, and lo and behold; your latest migration!
 
-## Atom.io
-If you're using atom.io, there's a version of this plugin for you too! Check out [https://atom.io/packages/rails-latest-migration](https://atom.io/packages/rails-latest-migration).
-
-## Visual Studio Code
-
-Using VSCode? [tmikoss](https://github.com/tmikoss) has got you covered, check out the VSCode version of this plugin here: [https://github.com/tmikoss/rails-latest-migration](https://github.com/tmikoss/rails-latest-migration).
+## Credits
+Forked from [Rails Latest Migration](https://github.com/alexpls/Rails-Latest-Migration)
 
 ## License
-The MIT License (MIT) - for more info see [LICENSE.md](https://github.com/alexpls/Rails-Latest-Migration/blob/master/LICENSE.md).
+The MIT License (MIT) - for more info see [LICENSE.md](https://github.com/aymericauberger/Laravel-Latest-Migration/blob/master/LICENSE.md).
