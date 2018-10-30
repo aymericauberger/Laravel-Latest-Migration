@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Rails Latest Migration: Open latest Rails migration",
-        "command": "rails_latest_migration"
+        "caption": "Laravel Latest Migration: Open latest Laravel migration",
+        "command": "laravel_latest_migration"
     }
 ]
