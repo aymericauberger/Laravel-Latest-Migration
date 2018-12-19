@@ -2,18 +2,18 @@ import sublime, sublime_plugin
 import os
 import re
 
-class LaravelLatestMigration(sublime_plugin.WindowCommand):
-	def run(self):
+class LaravelLatestMigration(sublime_plugin.TextCommand):
+	def run(self, edit):
 		try:
 			# Try to get a path from the currently open file.
-			cur_path = self.window.active_view().file_name()
+			cur_path = self.view.file_name()
 		except AttributeError:
 			cur_path = None
 
 		# If no file is open, try to get it from the currently open folders.
 		if cur_path == None:
-			if self.window.folders():
-				cur_path = self.window.folders()[0]
+			if self.view.window().folders():
+				cur_path = self.view.window().folders()[0]
 
 		if cur_path:
 			if os.path.isfile(cur_path):
@@ -30,7 +30,7 @@ class LaravelLatestMigration(sublime_plugin.WindowCommand):
 			migrations = sorted([m for m in migrations if pattern.match(m)])
 			latest_migration = os.path.join(migrations_dir, migrations[-1])
 
-			self.window.open_file(latest_migration)
+			self.view.window().open_file(latest_migration)
 
 	# Recursively searches each up a directory structure for the
 	# expected items that are common to a Laravel application.
